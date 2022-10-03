@@ -1,10 +1,11 @@
 import React from "react";
+import StyledLayout from "../components/StyledLayout";
 
 function Home() {
   return (
-    <div>
+    <StyledLayout>
       메인페이지
-    </div>
+    </StyledLayout>
   );
 }
 
