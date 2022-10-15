@@ -1,10 +1,16 @@
 import React from "react";
 import StyledLayout from "../components/StyledLayout";
+import styled from "styled-components";
+import MainImgSrc from "../assets/images/main-image.png";
+
+const MainImg = styled.img`
+  width: 100%;
+`
 
 function Home() {
   return (
     <StyledLayout>
-      메인페이지
+      <MainImg src={MainImgSrc} />
     </StyledLayout>
   );
 }

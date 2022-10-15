@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Navigation from './Navigation';
 
 const Container = styled.div`
-  width: 640px;
+  width: 100%;
   height: 60px;
   border: 1px solid red;
   display: flex;
