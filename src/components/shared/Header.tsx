@@ -1,10 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
+import Navigation from './Navigation';
 
 const Container = styled.div`
   width: 640px;
+  height: 60px;
   border: 1px solid red;
-  padding: 10px 0 10px 10px;
+  display: flex;
+  align-items: center;
 `
 const Logo = styled.div`
   width: 100px;
@@ -16,6 +19,7 @@ function Header() {
   return (
     <Container>
       <Logo />
+      <Navigation />
     </Container>
   );
 }

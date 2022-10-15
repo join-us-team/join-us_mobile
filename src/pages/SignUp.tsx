@@ -2,9 +2,14 @@ import React from "react";
 import styled from 'styled-components';
 
 function SignUp() {
+  
+  const onSignUpHandler = () => {
+
+  }
+
   return (
     <div>
-      회원가입
+      <button onClick={onSignUpHandler}>회원가입</button>
     </div>
   );
 }
