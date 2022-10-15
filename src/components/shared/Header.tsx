@@ -8,6 +8,8 @@ const Container = styled.div`
   border: 1px solid red;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
 `
 const Logo = styled.div`
   width: 100px;
@@ -18,8 +20,8 @@ const Logo = styled.div`
 function Header() {
   return (
     <Container>
-      <Logo />
-      <Navigation />
+        <Logo />
+        <Navigation />
     </Container>
   );
 }
