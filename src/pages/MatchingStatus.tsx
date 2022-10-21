@@ -1,7 +1,7 @@
 import React from "react";
 import styled from 'styled-components';
 
-function MatchingStatus() {
+const MatchingStatus: React.FC = () => {
   return (
     <div>
       매칭 현황

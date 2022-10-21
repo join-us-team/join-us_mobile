@@ -7,7 +7,7 @@ const MainImg = styled.img`
   width: 100%;
 `
 
-function Home() {
+const Home: React.FC = () => {
   return (
     <StyledLayout>
       <MainImg src={MainImgSrc} />

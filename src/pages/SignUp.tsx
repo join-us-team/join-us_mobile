@@ -1,7 +1,7 @@
 import React from "react";
 import styled from 'styled-components';
 
-function SignUp() {
+const SignUp: React.FC = () => {
   
   const onSignUpHandler = () => {
 

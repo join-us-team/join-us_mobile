@@ -5,7 +5,7 @@ import { HiOutlineMenu } from "react-icons/hi"
 
 const Container = styled.div``
 
-function Navigation() {
+const Navigation: React.FC = () => {
   return(
     <Container>
       <HiOutlineMenu />

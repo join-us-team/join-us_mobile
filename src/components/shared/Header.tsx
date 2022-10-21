@@ -17,7 +17,7 @@ const Logo = styled.div`
   border: 1px solid purple;
 `
 
-function Header() {
+const Header: React.FC = () => {
   return (
     <Container>
         <Logo />
