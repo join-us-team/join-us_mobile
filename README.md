@@ -17,3 +17,9 @@
 
 ### [Design]
 <img src="https://img.shields.io/badge/-AdobePhotoshop-333333?style=flat&logo=adobephotoshop"/>
+
+## 메인페이지
+<img style="width: 300px;margin:0 auto;" src="https://user-images.githubusercontent.com/88071843/197329856-fb41eb3f-f4f2-409c-af85-6bce5fbfaea7.jpg" />
+
+## 메뉴 탭
+<img style="width: 300px;" src="https://user-images.githubusercontent.com/88071843/197329904-9fc926ad-406f-453c-9b21-36166362ba6a.jpg" />
