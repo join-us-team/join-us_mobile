@@ -8,16 +8,21 @@ const Menus = [
   },
   {
     id: 2,
+    name: "랜덤 매칭",
+    src: "/random-matching",
+  },
+  {
+    id: 3,
     name: "매칭 현황",
     src: "/matching-status",
   },
   {
-    id: 3,
+    id: 4,
     name: "회원가입",
     src: "/sign-up"  
   },
   {
-    id: 4,
+    id: 5,
     name: "로그인",
     src: "/login"
   }
@@ -29,7 +34,9 @@ const MenuList = () => {
       {Menus.map((menu) => {
         return(
           <li key={menu.id}>
-            {menu.name}
+            <h2>
+              <a href={menu.src}>{menu.name}</a>
+            </h2>
           </li>
         );
       })}

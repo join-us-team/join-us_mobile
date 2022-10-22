@@ -13,7 +13,7 @@ const Header = () => {
 
   return (
     <Container>
-        <Logo />
+        <Logo href="/"></Logo>
         <Navigation />
         {
           menuToggle

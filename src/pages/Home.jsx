@@ -1,15 +1,20 @@
 import React from "react";
-import StyledLayout from "../styles/StyledLayout";
 import styledComponents from "../styles/HomeStyle";
 import MainImgSrc from "../assets/images/main-image.png";
+import Content1 from "../components/Home/Content1";
+import Content2 from "../components/Home/Content2";
 
-const { MainImg } = styledComponents
+const { Container, MainImg, Contents } = styledComponents
 
 const Home = () => {
   return (
-    <StyledLayout>
+    <Container>
       <MainImg src={MainImgSrc} />
-    </StyledLayout>
+      <Contents>
+        <Content1 />
+        <Content2 />
+      </Contents>
+    </Container>
   );
 }
 
